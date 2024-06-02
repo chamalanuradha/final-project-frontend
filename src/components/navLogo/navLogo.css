@@ -1,0 +1,22 @@
+.navLogoContainer{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;  
+}
+.logoContainer{
+  width: 100%;
+  max-width: 1024px;
+  color: rgb(66, 39, 17);
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.applogo{
+  height: 70px;
+  width: 70px;
+}
+.logoContainer>b{
+  margin-top: 10px;
+}
+  
+  

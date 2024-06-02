@@ -1,0 +1,37 @@
+.formInput{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.formInput>input{
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 15px;
+    border: 0px solid rgb(80, 80, 80);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.formInput>label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: rgb(48, 48, 48);
+}
+
+.formInput>span{
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+    display: none;
+}
+
+.formInput>input:invalid[focused="true"]{
+    border: 1px solid red;
+}
+
+.formInput>input:invalid[focused="true"] ~ span{
+    display: block;
+}

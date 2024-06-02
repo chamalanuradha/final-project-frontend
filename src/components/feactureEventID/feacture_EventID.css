@@ -1,0 +1,87 @@
+ .Pics{
+   width: 100%;
+   max-width: 1024px;
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+   z-index: 1;
+   padding-bottom: 50px;
+    
+  }
+  
+  .IDfeaturedItem{
+   
+   color: white;
+   border-radius: 10px;
+   overflow: hidden;
+  
+   flex:1;
+   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -25px;
+  }
+
+  .IDfeaturedImg{
+   width: 100%;
+   object-fit: cover;
+  }
+  
+ .ID{
+    display:flex;
+    width: 100%;
+    max-width: 1024px;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -25px;
+    align-items: center;
+ }
+
+ .IDtext>h1{
+    font-weight: bold;
+ }
+
+ .IDtext>p{
+   padding-top: 30px;
+    font-size: 15px;
+ }
+
+ .IDtext{
+    width: 600px;
+    height:300px;
+    justify-content: center;
+ }
+
+.feacture_ID{
+    max-width: 1024px;
+    align-items: center;
+}
+
+.IDvenue{
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -25px;
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(251, 247, 247);
+    font-size: 15px;
+    border-radius: 15px;
+    max-width:300px;
+    height:180px;
+    align-items: center;
+    padding-top: 30px;
+    
+   
+}
+
+.IDvenue>button{
+   border-radius: 15px;
+   background-color: greenyellow;
+   height:40px;
+   width:100px;
+   border: 3px;
+   font-weight:bold;
+   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -25px;
+  
+   
+}

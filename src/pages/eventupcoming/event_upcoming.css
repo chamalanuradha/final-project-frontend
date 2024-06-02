@@ -1,0 +1,43 @@
+.coming_Title{
+    width: 1024px;
+    padding-top: 30px;
+    display: flex;
+  }
+
+  .coming_Container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+   
+
+  }
+
+  .eventButton1{
+    margin-left: 300px;
+    border: black;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+    width:200px;
+    height:40px;
+    border-width: 5px;
+    font-size: 20px;
+    color: #cad6e7;
+    background-color: green;
+ }
+
+ 
+
+ .coming_topic{
+    padding-top: 20px;
+    padding-bottom: 5px;
+ }
+
+ .coming_content{
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -25px;
+  padding-bottom: 50px;
+ }
+ 

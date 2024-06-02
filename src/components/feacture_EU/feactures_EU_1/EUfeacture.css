@@ -1,0 +1,68 @@
+.fp {
+    max-width:fit-content;
+    display:flex;
+    gap: 20px;
+    width:1024px;
+   
+    
+    
+    
+    
+  }
+  
+  .fpItem{
+    gap: 10px;
+    width:33%;
+    justify-content: space-between;
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -25px;
+    border-radius: 15px;
+  }
+  
+  .fpImg{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-Right-radius: 15px;
+  }
+  
+  .fpName{
+    color: #333;
+    font-weight: bold;
+    padding-left: 1px;
+  }
+  
+  .fpCity{
+    font-weight: 300;
+    padding-left: 1px;
+  }
+  
+  .fptime{
+    font-weight: 500;
+    padding-left: 1px;
+  }
+  
+  .fpdate>button{
+    background-color:yellow;
+    color: rgb(196, 22, 22);
+    border: none;
+    margin-left: 128px;
+    font-weight: bold;
+    height: 40px;
+    width: 50px; 
+  }
+  
+  .fpdate{
+    margin-top: -10px;
+  }
+
+  .view>button{
+    background-color:rgb(42, 187, 68);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    height: 30px;
+    width:100% ;
+    font-size: 18px;
+    cursor: pointer;
+  }

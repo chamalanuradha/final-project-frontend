@@ -1,0 +1,23 @@
+.ruleContainer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .ruleTitle{
+    width: 1024px;
+   
+    text-align: center;
+  }
+
+.content{
+  align-items: center;
+  margin-left:200px;
+  margin-right: 300px;
+  margin-bottom: 100px;
+  background-color: azure;
+  color: darkblue;
+
+}

@@ -1,0 +1,50 @@
+.searchItem{
+    border: 1px solid lightgrey;
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    margin-bottom: 10px;
+
+}
+.sItemImage{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 25px;
+    padding: 10px;
+
+}
+.sItemDiscription{
+    display: flex;
+    flex: 4;
+    flex-direction: column;
+}
+.sItemTitle{
+    flex:1;
+    margin-top: 10px;
+
+}
+.sItemDetails{
+    flex: 2;
+    font-size: 14px;
+    
+}
+.sItemButton{
+    margin-left: 0px;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    width:100px;
+    height:30px;
+    background-color: rgb(156, 244, 23);
+}
+
+.sItemOther{
+    display: flex;
+    flex: 1;align-items: center;
+    gap: 10px;
+    color: rgb(211, 168, 26);
+
+}

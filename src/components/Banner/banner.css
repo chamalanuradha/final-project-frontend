@@ -1,0 +1,16 @@
+.banner{
+    align-items: center;
+    font-size: 16px;
+    background-color:#b1cef7 ;
+    margin-top: 10px;
+    max-width: fit-content;
+    object-fit: cover;
+
+    
+
+}
+
+.slider{
+    display: block;
+        
+}
