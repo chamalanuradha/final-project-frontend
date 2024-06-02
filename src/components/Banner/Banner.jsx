@@ -1,9 +1,9 @@
 import React from "react";
 import SimpleImageSlider from "react-simple-image-slider";
-import banner2 from "./banner2.jpg";
-import banner1 from "./banner1.jpg";
-import banner3 from "./banner3.jpg";
-import banner4 from "./banner4.jpg";
+import hero2 from "./hero2.jpg";
+import hero1 from "./hero1.jpg";
+import hero3 from "./hero3.jpg";
+import hero4 from "./hero4.jpg";
 import "./banner.css";
 
 
@@ -13,10 +13,10 @@ function Banner(){
   
   const images = [
    
-    { url: banner4 },
-    { url: banner2 },
-    { url: banner3 },
-    { url: banner1 },
+    { url: hero4 },
+    { url: hero2 },
+    { url: hero3 },
+    { url: hero1 },
   ];
   
 
