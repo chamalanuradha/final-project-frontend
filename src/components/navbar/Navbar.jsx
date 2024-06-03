@@ -24,7 +24,7 @@ const Navbar = ({type}) => {
       <div className="navContainer">
       <Link to='/' style={{color:"inherit", textDecoration:"none"}}>
        <span className="logo">
-       <b>Sri Lankan<br/> Camping Guide</b>
+       <b>Tropical Camping <br/> Sri Lanka</b>
        </span>
        </Link>
       <img src={logo} className="appLogo" alt="logo"  />

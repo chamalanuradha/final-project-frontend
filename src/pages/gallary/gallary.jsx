@@ -3,7 +3,7 @@ import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
 import Eventimg from "../../components/Gallary/eventimg";
 import Navbar from "../../components/navbar/Navbar";
-import Banner from "../../components/Banner/Banner";
+import Banner from "../../components/Hero/hero";
 import "./gallary.css";
 
 

@@ -1,10 +1,8 @@
 .header {
-  background-color: #b1cef7;
   color: black;
   display: flex;
   justify-content: center;
   position: relative;
-  height: 20px;
   
 }
 

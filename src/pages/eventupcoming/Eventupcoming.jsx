@@ -7,7 +7,7 @@ import EUfeacture6 from "../../components/feacture_EU/feactures_EU_6/EUfeacture_
 import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
 import Navbar from "../../components/navbar/Navbar";
-import Banner from "../../components/Banner/Banner";
+import Banner from "../../components/Hero/hero";
 import "./event_upcoming.css";
 import React from "react";
 import {Link } from "react-router-dom";

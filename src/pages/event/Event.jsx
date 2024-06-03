@@ -2,7 +2,7 @@ import Featured from "../../components/featured_event/Featured";
 import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
 import Navbar from "../../components/navbar/Navbar";
-import Banner from "../../components/Banner/Banner";
+import Banner from "../../components/Hero/hero";
 import "./event.css";
 import React from "react";
 import {Link } from "react-router-dom"; 

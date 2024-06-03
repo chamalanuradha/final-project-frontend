@@ -4,12 +4,12 @@ import hero2 from "./hero2.jpg";
 import hero1 from "./hero1.jpg";
 import hero3 from "./hero3.jpg";
 import hero4 from "./hero4.jpg";
-import "./banner.css";
+import "./hero.css";
 
 
 
 
-function Banner(){
+function Hero(){
   
   const images = [
    
@@ -25,7 +25,7 @@ function Banner(){
       <div className="slider">
       <SimpleImageSlider
         width={"100%"}
-        height={"70vh"}
+        height={"80vh"}
         images={images}
         showBullets={true}
         showNavs={true}
@@ -36,6 +36,6 @@ function Banner(){
    ); 
 }
 
-export default Banner;
+export default Hero;
 
 

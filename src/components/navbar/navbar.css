@@ -33,17 +33,16 @@
 }
 
 .logo{
+  margin-left: 5px;
   font-weight: 500;
 
 }
 
 .appLogo{
   object-fit: contain;
-  height: 70px;
-  margin-left: -1050px;
-  margin-top: 10px;
- 
- 
+  height: 150px;
+  margin-left: -1090px;
+  margin-top: 2px;
   
 }
 
